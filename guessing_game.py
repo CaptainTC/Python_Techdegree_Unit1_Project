@@ -10,7 +10,6 @@ def start_game(high_score, answer):
         magic_number = random.randint(1, 10)
         lines = ("-" * 34)
         print(lines+"\nWelcome to Number Guessing Game!!!\n"+lines+"\n")
-        print(magic_number)
         while True:
             player_guess = input("Pick a number between 1 and 10: ")
             try:
